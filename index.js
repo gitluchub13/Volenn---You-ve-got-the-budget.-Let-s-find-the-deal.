@@ -1,3 +1,7 @@
+// Vercel Web Analytics
+import { inject } from '@vercel/analytics';
+inject();
+
 // Base ("typical") price for each product, before store/zone price differences are applied.
 const productBasePrices = {
     Milk: 1.15,
